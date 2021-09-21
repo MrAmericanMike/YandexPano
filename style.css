@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+	background-color: #202030;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#panorama {
+	flex-basis: 90%;
+	background-color: dodgerblue;
+}
+
+#foot{
+	flex-basis: 10%;
+	background-color: crimson;
+	text-align: center;
+	padding: 12px;
+	display: flex;
+}
+
+#location{
+	color: aliceblue;
+	flex: 1;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 6px;
+}
+#button{
+	flex: 2;
+}
+
+#foot button{
+	background-color: coral;
+	padding: 12px 24px;
+	font-size: 24px;
+	border: 2px solid midnightblue;
+	border-radius: 12px;
+	cursor: pointer;
+}
+#foot button:hover{
+	background-color: chocolate;
+}
